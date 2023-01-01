@@ -1,17 +1,17 @@
 [tool.poetry]
 
-name = "coloredconsole"
+name = "coloredmatrix"
 version = "0.0.1"
 description = "ANSI color formatting for output in terminal"
 
-packages = [{ include = "coloredconsole" }]
+packages = [{ include = "coloredmatrix" }]
 
 license = "MIT"
 authors = ["Jewin Varghese <jewinvarghese@protonmail.com>"]
 
 readme = "README.md"
-homepage = "https://github.com/JewinV/colored-console"
-repository = "https://github.com/JewinV/colored-console"
+homepage = "https://github.com/JewinV/coloredmatrix"
+repository = "https://github.com/JewinV/coloredmatrix"
 
 keywords = [
   "ANSI",
@@ -23,7 +23,7 @@ keywords = [
   "termcolor",
   "terminal",
   "console",
-  "coloredconsole"
+  "coloredmatrix"
 ]
 classifiers = [
     # TODO: update this list to match your application: https://pypi.org/pypi?%3Aaction=list_classifiers

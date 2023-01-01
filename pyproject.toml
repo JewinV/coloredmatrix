@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools<61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coloredconsole"
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = [
+  "ANSI",
+  "ANSI color",
+  "ANSI colour",
+  "color",
+  "colour",
+  "formatting",
+  "termcolor",
+  "terminal",
+  "console",
+  "coloredconsole"
+]
+license = "LICENSE"
+authors = [{name = "Jewin Varghese", email = "jewinvarghese@protonmail.com"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["version"]
+
+[project.urls]
+Changelog = "https://github.com/JewinV/colored-console/releases"
+Homepage = "https://github.com/JewinV/colored-console"
+Source = "https://github.com/JewinV/colored-console"

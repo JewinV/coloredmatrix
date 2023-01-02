@@ -63,6 +63,18 @@ print(Stylize("hello").bold().italic().underline())
 print(Stylize("hello").blink().strike())
 ```
 
+## Troubleshooting
+
+If you are having trouble using coloredmatrix in Windows, there are a few things you can try to troubleshoot the issue:
+- Make sure that your system supports ANSI escape codes. Some older versions of Windows may not support ANSI escape codes, which are used by coloredmatrix to change the colors in the terminal.
+- Enable virtual terminal processing. In some versions of Windows, you may need to enable virtual terminal processing in order for ANSI escape codes to work. To do this, you can try adding the VirtualTerminalLevel registry key under the `HKEY_CURRENT_USER\console` key.
+
+To do this, open the command prompt or PowerShell with administrative privileges and run the following command:
+```cmd
+reg add "HKEY_CURRENT_USER\console" /v "VirtualTerminalLevel" /t REG_DWORD /d 1
+```
+
+
 ## Supported Colors
 You can also use RGB color tuples to specify any other color.
 <br>The `Color` constants define the following colors:

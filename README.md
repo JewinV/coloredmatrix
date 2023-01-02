@@ -71,8 +71,9 @@ If you are having trouble using coloredmatrix in Windows, there are a few things
 
 To do this, open the command prompt or PowerShell with administrative privileges and run the following command:
 ```cmd
-reg add "HKEY_CURRENT_USER\console" /v "VirtualTerminalLevel" /t REG_DWORD /d 1
+REG ADD "HKEY_CURRENT_USER\console" /v "VirtualTerminalLevel" /t REG_DWORD /d 1
 ```
+and restart the cmd/PowerShell
 
 
 ## Supported Colors
